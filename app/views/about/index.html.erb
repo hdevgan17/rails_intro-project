@@ -1,0 +1,10 @@
+<div class="container p-6">
+  <h1 class="mb-6 has-text-black is-size-1">About</h1>
+  <hr />
+  <p class="has-text-black is-size-5">
+    This project incorporates data for dogs, their owners, and various locations. Each dog is linked to a single owner (indicating a one-to-many relationship) and can be associated with several locations (indicating a many-to-many relationship). Owners have essential details like name, email, and address, while locations represent the different places that dogs visit. Information on dog breeds and images is obtained from an external Dog API, and additional data is generated using the Faker gem. The connections between these entities are structured using foreign keys, with a join table facilitating the many-to-many link between dogs and locations.
+  </p>
+
+  <h2 class="has-text-black is-size-3 mt-6">ERD</h2>
+  <%= image_tag 'DogProject_ERD.png' %>
+</div>
